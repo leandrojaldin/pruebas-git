@@ -1,0 +1,16 @@
+cd Downloads/
+git clone https://github.com/leandrojaldin/UCB-EXAMEN-1.git
+cd UCB-EXAMEN-1/
+git branch examen1
+git checkout examen1
+git status
+cd jaldin-leandro/
+git status
+git add .
+git status
+git commit -m "subiendo nota del examen teorico"
+git push origin examen1
+git checkout main
+git merge examen1
+git push origin main
+                  
